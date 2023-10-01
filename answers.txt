@@ -1,3 +1,16 @@
+What is the difference between a merge and a rebase?
+
+"While merge preserves history as it happened, rebase rewrites it."
+"Both of these commands are designed to integrate changes from one branch into another branch—they just do it in very different ways."
+"The major benefit of rebasing is that you get a much cleaner project history."
+"But, there are two trade-offs for [rebase]: safety and traceability."
+
+Source: https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+
+Essentially, rebasing is dangerous in the respect that it has a different branch history than that of merge. Also, I will not be using it unless I am confident with absolute certainty that I won't fuck something up. Also also, don't use it with public branches.
+
+=
+
 What is a remote repository?
 
 A remote repository is a version of one's project that are hosted either on the Internet, or some other network. Remote repos can be accessed by other people (who have the perms to), while a local repo can only be accessed on one's own computer/laptop/machine.
